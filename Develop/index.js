@@ -48,7 +48,7 @@ function buildSvg(shape, textColor, text){
 //Async function that waits for the user to enter all of the data.
 async function init() {
     const data = await promptUser().then((data => {
-        console.log(data);
+        // console.log(data);
         let text = "";
 
         //Check that the length of the logo letters is 3, and only use 3 if it's longer.
